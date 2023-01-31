@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SQL Commands</title>
+     
+        <!-- font awesome cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+     
+        <!-- swiper css link  -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+     
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="css/kl.css">
+     
+     </head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <div class="logo">
+      <image src="images/logo.webp">
+         <span>DBMS                                                                                                                                                                 </span>
+</div>
+
+   <nav class="navbar">
+      <div id="close-navbar" class="fas fa-times"></div>
+      <a href="sql-query.pdf">NOTES</a>
+      <a href="SQL_Queries.pptx">PPT</a>
+      <a href="https://youtu.be/vUj-kUEC_oA">VIDEOS</a>
+      <a href="contact.html">CONTACT</a>
+   </nav>
+
+   <div class="icons">
+      
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </div>
+
+</header>
+<!-- header section ends -->
+<section class="content">
+    <div class="cyber">
+    <h1>SQL COMMANDS</h1></div>
+<div class="ex">
+    <p>A DBMS must provide appropriate languages and interfaces for each category of users to express database queries and updates. Database language are used to 
+        create and maintain database on computer.</p>
+        <br><br><br>
+       
+    <h2>TYPES OF SQL DATA LANGUAGES</h2>
+<p>A Relational database has following major components are:<br>
+    <ul type="disc">
+    
+        <li class="li">DDL(Data Definition Language.)</li>
+        <li class="li">DML(Data Manipulation Language.)</li>
+        <li class="li">DCL(Data Control Language.)</li>
+        <li class="li">TCL(Transaction Control Language.)</li>
+        </ul>
+        </p>
+<br><br><br>
+
+    <h2>DDL<br>
+    (DATA DEFINITION LANGUAGE)</h2>
+    <p>DDL stands for DATA DEFINITION LANGUAGE. it is a language that allows the user to define data and their relationship to other types of data. It is mainly used to creates files,
+        Database, data dictonary and tables within Database.</p><br>
+        <p>The following tables given an overview about usage od DDL Statements in SQL:
+            <table  style="background-color:slateblue"border="2" cellpadding="3" cellspacing="2">
+                <tr style="background-color:grey">
+                <th>SrNo</th>
+                <th>DDL Statement</th>
+                <th>Need and Usage</th>
+                </tr>
+                <tr style="background-color:yellow">
+                    <td>1</td>
+                    <td>CREATE</td>
+                    <td>Create schema object</td>
+                    
+                </tr>
+                <tr style="background-color:pink">
+                    <td>2</td>
+                    <td>ALTER</td>
+                    <td>Alter schema object</td>
+                    
+                </tr>
+                <tr style="background-color:skyblue">
+                    <td>3</td>
+                    <td>DROP</td>
+                    <td>Delete schema object</td>
+                    
+                </tr>
+                <tr style="background-color:lightgreen">
+                    <td>4</td>
+                    <td>RENAME</td>
+                    <td>Rename schema object</td>
+                    
+                </tr>
+                </table></p>
+
+    <br><br><br>
+    
+
+    <h2>DML<br>
+    (DATA MANIPULATION LANGUAGE)</h2>
+    <p>It is a language that provides a set of operation to supports the basic data manipulation operations on the data held in the database.
+         The part of DML that involves data retrieval ia called a query language.</p><br>
+        <p>The following tables given an overview about usage od DML Statements in SQL:
+            <table  style="background-color:slateblue"border="2" cellpadding="3" cellspacing="2">
+                <tr style="background-color:grey">
+                <th>SrNo</th>
+                <th>DML Statement</th>
+                <th>Need and Usage</th>
+                </tr>
+                <tr style="background-color:yellow">
+                    <td>1</td>
+                    <td>DELETE</td>
+                    <td>Removes rows from tables or views</td>
+                    
+                </tr>
+                <tr style="background-color:pink">
+                    <td>2</td>
+                    <td>INSERT</td>
+                    <td>Add new rows of data into table or view</td>
+                    
+                </tr>
+                <tr style="background-color:skyblue">
+                    <td>3</td>
+                    <td>SELECT</td>
+                    <td>Retrieve data from one or more tables </td>
+                    
+                </tr>
+                <tr style="background-color:lightgreen">
+                    <td>4</td>
+                    <td>UPDATE</td>
+                    <td>Change column values in existing row of a table or view</td>
+                    
+                </tr>
+                </table></p>
+
+                <br><br><br>
+
+                <h2>DCL<br>
+                (DATA CONTROL LANGUAGE)</h2>
+                <p>DCL Statements controls access to data and the database using statements such as GRANT(to gave permission) and REVOKE(to back permission).<br>
+                <h5>GRANT: allow specified users to perform specified tasks.<br>
+            REVOKE: Cancel previously granted or denied permission.</h5></p><br>
+                    <p>The following tables given an overview about usage od DCL Statements in SQL:
+                        <table  style="background-color:slateblue"border="2" cellpadding="3" cellspacing="2">
+                            <tr style="background-color:grey">
+                            <th>SrNo</th>
+                            <th>DCL Statement</th>
+                            <th>Need and Usage</th>
+                            </tr>
+                            <tr style="background-color:yellow">
+                                <td>1</td>
+                                <td>GRANT</td>
+                                <td>Grant and take away priviliges and roles</td>
+                                
+                            </tr>
+                            <tr style="background-color:pink">
+                                <td>2</td>
+                                <td>REVOKE</td>
+                                <td>Add acomment to the data dictionary</td>
+                                
+                            </tr>
+                            
+                            </table></p>
+            
+                            <br><br><br>
+
+                            <h2>TCL<br>
+                            (TRANSACTION CONTROL LANGUAGE)</h2>
+                            <p>Transaction Control Language commands are used to manage transactions in the database.
+                                 These are used to manage the changes made by DML Statements.</p><br>
+                                <p>Examples of TCL Commands:
+                                    <table  style="background-color:slateblue"border="2" cellpadding="3" cellspacing="2">
+                                        <tr style="background-color:grey">
+                                        <th>SrNo</th>
+                                        <th>TCL Commands</th>
+                                        <th>Need and Usage</th>
+                                        </tr>
+                                        <tr style="background-color:yellow">
+                                            <td>1</td>
+                                            <td>COMMIT</td>
+                                            <td>commit commands is used to permanantly save any transaction into the Database.</td>
+                                            
+                                        </tr>
+                                        <tr style="background-color:pink">
+                                            <td>2</td>
+                                            <td>ROLL BACK</td>
+                                            <td>This commands restores the database to last commited state.</td>
+                                            
+                                        </tr>
+                                        <tr style="background-color:skyblue">
+                                            <td>3</td>
+                                            <td>SAVEPOINT</td>
+                                            <td>Savepoint command is used to temporarily save a transaction so that you can rollback to that point whenever necessary.</td>
+                                            
+                                        </tr>
+                                       
+                                        </table></p>
+                        
+                            <br><br><br>
+
+
+</div>
+</section>
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
